@@ -1,0 +1,1 @@
+wat2wasm $1 -v 2> $1.binview

@@ -1,0 +1,6 @@
+wat2wasm $1 -o o.wasm
+
+# https://webassembly.github.io/wabt/doc/wasm-interp.1.html
+wasm-interp --run-all-exports o.wasm
+
+rm o.wasm
