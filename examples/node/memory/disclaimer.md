@@ -1,0 +1,1 @@
+This example is from the book: "The Art of WebAssembly" by Rick Battagline
