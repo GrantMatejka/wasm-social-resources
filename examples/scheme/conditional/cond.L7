@@ -1,0 +1,52 @@
+; output of np-simplify-if:
+
+(labels
+  ((#{anon m39es5p9mlxwli6gdyo9e3ivh-2}
+     (case-lambda
+       [clause
+        (#{x m39es5p9mlxwli6gdyo9e3ivh-0})
+        #f
+        1
+        (if (call
+              #f
+              #[#{primref a0xltlrcpeygsahopkplcn-2} > 3228386 (-2)]
+              #{x m39es5p9mlxwli6gdyo9e3ivh-0}
+              '2)
+            (call
+              #f
+              #[#{primref a0xltlrcpeygsahopkplcn-2} + 1330682 (-1)]
+              (call
+                #f
+                #[#{primref a0xltlrcpeygsahopkplcn-2} * 1330682 (-1)]
+                '2
+                #{x m39es5p9mlxwli6gdyo9e3ivh-0})
+              (call
+                #f
+                #[#{primref a0xltlrcpeygsahopkplcn-2} - 1330682 (-2)]
+                #{x m39es5p9mlxwli6gdyo9e3ivh-0}
+                '2))
+            (call
+              #f
+              #[#{primref a0xltlrcpeygsahopkplcn-2} + 1330682 (-1)]
+              (call
+                #f
+                #[#{primref a0xltlrcpeygsahopkplcn-2} + 1330682 (-1)]
+                '1
+                #{x m39es5p9mlxwli6gdyo9e3ivh-0})
+              (call
+                #f
+                #[#{primref a0xltlrcpeygsahopkplcn-2} + 1330682 (-1)]
+                '1
+                (call
+                  #f
+                  #[#{primref a0xltlrcpeygsahopkplcn-2} + 1330682 (-1)]
+                  '1
+                  #{x m39es5p9mlxwli6gdyo9e3ivh-0}))))]))
+    (#{main m39es5p9mlxwli6gdyo9e3ivh-3}
+      (case-lambda
+        [clause
+         ()
+         #f
+         0
+         #<literal #{anon m39es5p9mlxwli6gdyo9e3ivh-2}>])))
+  (#{main m39es5p9mlxwli6gdyo9e3ivh-3}))

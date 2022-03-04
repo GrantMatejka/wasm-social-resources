@@ -277,7 +277,8 @@
             local.set $y2
             (i32.sub (local.get $y1) (local.get $y2))
             call $abs
-            local.tee $ydist
+            local.set $ydist
+            local.get $ydist
 
             global.get $obj_size
             i32.ge_u
